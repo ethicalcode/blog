@@ -1,6 +1,4 @@
-# Ethical Code
 
-## What is this
 Here we'll be documenting the founding of Ethical Code, a group of Australian Designers, Developers, Machine Learning Enginers and Organisers who are committed to doing both politics and software development better.
 
 ## Why are we starting this?
