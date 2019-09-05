@@ -1,84 +1,33 @@
-# Easy Markdown to Github Pages
+# Ethical Code
 
-## Introduction
+## What is this
+Here we'll be documenting the founding of Ethical Code, a group of Australian Designers, Developers, Machine Learning Enginers and Organisers who are committed to doing both politics and software development better.
 
-This little guide demonstrate how to turn any [Github](http://github.com) repository with a bunch of [Markdown](https://en.wikipedia.org/wiki/Markdown) files into a simple website using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+## Why are we starting this?
 
-* You don't need to use the command line or anything other than your browser.
-* It doesn't require any knowledge in Jekyll.
-* It's completely compatible with any bunch of markdown files you already have in any existing repository without any modification to those files. That includes the basic `README.md` almost all repositories contain.
-* The markdown files will remain just as readable and usable in Github than in your website.
+We've worked in the Politics & NGO sector in Australia and the US. We've worked in agencies, political parties, big and small NGO and we've experienced the frustration from both sides. We know there's a better way
+We've also seen our friends and colleagues try to volunteer their skills for these orgs, but not get the kind of recognition, reward, focus and great project management they get when they take part in traditional community organising. 
+We've seen PhDs knocking doors and making phone calls (which is great, don't stop! Persuasive conversations can change the world), and wished that they were spending their time working with like minded high-skill volunteers to build things that could reach hundreds of thousands or millions of voters.
 
-In fact this guide uses the same configuration and can be read both in Github and in Github Pages, at your preference:
+## How are you different?
 
-* [Here is the link to the Github version](https://github.com/nicolas-van/easy-markdown-to-github-pages)
-* [Here is the link to the Github Pages version](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
+Ethical Code has organising at its' heart. We think our community will thrive when it's focused on solving real problems, grounded in great user research, respects and rewards contributors and has close ties to the people who are using their work every day.
 
-## Step by step instructions
+### Inspiration
+We love [https://www.progcode.org/](Progcode), with all its anarchy, enthusiasm and talent. We love [https://www.techforcampaigns.org](Tech4Campaigns), with its great project management, close relationships with candidates and laser focus.
+We'd like to take the best of these and build a community that makes stuff that is
+* **World Changing -** We'll only work on projects that solve a big problem for a tonne of people. We do this because we’re always going to be resource constrained (Great volunteers are scarce)
+* **Open -** Because when we solve a big problem well, we want to make sure that the benefit accrues to as many people and organisations as possible, and that they're incentivized to keep making it better
+* **Self Hosted -** We'll build apps that organisations can deploy themselves, at low cost.
+* **Painless -** Everything we build will be deployable and usable by a talented organiser of average to above average technical ability
+* **Scalable -** In general, we won't do 'custom' work for a single organisation. We'll aim to build tools so good that 10s or hundreds of orgs can use them to solve their problem. [^custom]
 
-### Determine the repository where you want to activate Github Pages
+## I have an idea for a project!
+Great! If you're a practitioner inside a values-aligned NGO or Political party, we'll sit down with you and help you define and document the problem you're trying to solve inside your org. If you're a contributor, we'll connect you with someone inside an NGO or political party and one of our project leaders, so that you can get a sense of the problem space and we can start co-designing a solution. We'll also help you find people inside the Ethical Code community to help you build it.
 
-You can of course create a new repository if you want.
 
-### Create the `_config.yml` file
 
-That file should be created on the root of your repository. Here is some content to copy-paste in it:
-
-```
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
-```
-
-It's basically just a few tuning of Github Pages' default configuration to have a better handling of Markdown files.
-
-### Activate Github Pages in your repository configuration
-
-On the Github page of your project go into `Settings > Options > Github Pages`:
-
-![](./printscreen1.png)
-
-In the `Source` option, select `master branch` then `Save`:
-
-![](./printscreen2.png)
-
-You must also choose a theme:
-
-![](./printscreen3.png)
-
-That's it! Now you can juste use the link provided by Github to access you website:
-
-![](./printscreen4.png)
-
-## Usage guide
-
-* Any markdown file in your repository will display in your Github Pages website. You just have to use the same path to access it and replace the `.md` extension by `.html`.
-* To make links between your Markdown files just use a relative path to the other Markdown file. The configuration you copy pasted in your `_config.yml` provides a plugin to convert those URLs. So your Markdown files will have correct links both in Github and Github Pages.
-* The index page of your website can be a `index.md` file or a `README.md` file. If both exists the `index.md` file has priority.
-* You should be able to use any [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-## Known differences between Github and Github Pages
-
-* No automatic links with Github Pages. The Github Markdown renderer can automatically detect a simple copy-pasted link and make it a clickable link. Github Pages doesn't propose a feature to reproduce that behavior, so you'll have to braces your links with the `[]()` syntax.
-
-## Recipes
-
-Since the purpose of this guide is to demonstrate how to publish multiple Markdown files as a website but I don't have much more to say I will propose you some delicious recipes instead:
-
-* [Escalivada](./recipes/Escalivada.md)
-* [Gazpacho](./recipes/Gazpacho.md)
-* [Pasta all'amatriciana](./recipes/Pasta_all_amatriciana.md)
+[^custom] If you're an organisation with really bespoke needs, we'll help you find an amazing team to extend one of our existing open source tools to solve your bespoke problem, but we'd prefer to help you figure out how to get away from the vendor lock-in you're in and join the open campaigning technology world. No matter how large you are, you'll benefit from the ecosystem of great open apps and technologies like [https://www.opensupporter.org](OSDI) that will help you liberate your data and stand on the shoulders of giants.
 
 ## Contributing
 
