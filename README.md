@@ -18,7 +18,7 @@ We'd like to take the best of these and build a community that makes stuff that 
 * **Open -** Because when we solve a big problem well, we want to make sure that the benefit accrues to as many people and organisations as possible, and that they're incentivized to keep making it better
 * **Self Hosted -** We'll build apps that organisations can deploy themselves, at low cost.
 * **Painless -** Everything we build will be deployable and usable by a talented organiser of average to above average technical ability
-* **Scalable -** In general, we won't do 'custom' work for a single organisation. We'll aim to build tools so good that 10s or hundreds of orgs can use them to solve their problem. [^custom]
+* **Scalable -** In general, we won't do 'custom' work for a single organisation. We'll aim to build tools so good that 10s or hundreds of orgs can use them to solve their problem.[^custom]
 
 ## I have an idea for a project!
 Great! If you're a practitioner inside a values-aligned NGO or Political party, we'll sit down with you and help you define and document the problem you're trying to solve inside your org. If you're a contributor, we'll connect you with someone inside an NGO or political party and one of our project leaders, so that you can get a sense of the problem space and we can start co-designing a solution. We'll also help you find people inside the Ethical Code community to help you build it.
