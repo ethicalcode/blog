@@ -11,14 +11,14 @@ We've seen PhDs knocking doors and making phone calls (which is great, don't sto
 
 Ethical Code has organising at its' heart. We think our community will thrive when it's focused on solving real problems, grounded in great user research, respects and rewards contributors and has close ties to the people who are using their work every day.
 
-### Inspiration
+## Inspiration
 We love [https://www.progcode.org/](Progcode), with all its anarchy, enthusiasm and talent. We love [https://www.techforcampaigns.org](Tech4Campaigns), with its great project management, close relationships with candidates and laser focus.
 We'd like to take the best of these and build a community that makes stuff that is
 * **World Changing -** We'll only work on projects that solve a big problem for a tonne of people. We do this because we’re always going to be resource constrained (Great volunteers are scarce)
 * **Open -** Because when we solve a big problem well, we want to make sure that the benefit accrues to as many people and organisations as possible, and that they're incentivized to keep making it better
 * **Self Hosted -** We'll build apps that organisations can deploy themselves, at low cost.
 * **Painless -** Everything we build will be deployable and usable by a talented organiser of average to above average technical ability
-* **Scalable -** In general, we won't do 'custom' work for a single organisation. We'll aim to build tools so good that 10s or hundreds of orgs can use them to solve their problem.[^custom]
+* **Scalable -** In general, we won't do 'custom' work for a single organisation. We'll aim to build tools so good that 10s or hundreds of orgs can use them to solve their problem. [^custom]
 
 ## I have an idea for a project!
 Great! If you're a practitioner inside a values-aligned NGO or Political party, we'll sit down with you and help you define and document the problem you're trying to solve inside your org. If you're a contributor, we'll connect you with someone inside an NGO or political party and one of our project leaders, so that you can get a sense of the problem space and we can start co-designing a solution. We'll also help you find people inside the Ethical Code community to help you build it.
@@ -31,6 +31,3 @@ Great! If you're a practitioner inside a values-aligned NGO or Political party, 
 
 See the [Contribution Guide](./CONTRIBUTING.md).
 
-## License
-
-See the [License File](./LICENSE.md).
